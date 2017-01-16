@@ -1,11 +1,14 @@
 ##PEMDAS REPL CALCULATOR
 
-By Elton Vinh
+	o Command line utility written in Clojure.
+	o Converts user inputted infix mathematical expressions to reverse polish notation using the shunting yard algorithm. Then parses and solves RPN expression.
+	o Supports all real numbers
+	o Supports a wide variety of mathematical operators/functions
 
-Please enter an arithmetic expression separated by spaces.
+"Please enter an arithmetic expression separated by spaces.
 
 i.e.  sin ( 3 + 4 * 2 / ( 1 - 5 ) ^ 2 ^ 3 )
-Supports +, -, *, /, ^, sin, cos, tan, arcsin, arccos, arctan
+Supports +, -, *, /, ^, sin, cos, tan, arcsin, arccos, arctan"
 
 Calculator also supports the use of variable storage and assignment.
 
